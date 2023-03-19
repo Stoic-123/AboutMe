@@ -15,7 +15,7 @@ h1 {
 .btn {
   border: 1px solid #2b343a;
   background: none;
-  padding: 7px 12px;
+  padding: 8px 13px;
   font-size: 15px;
   font-family: "monsterrat";
   cursor: pointer;
@@ -261,9 +261,10 @@ main {
   }
   .container {
     width: 100%;
-    height: 40px;
+    height: 60px;
     margin: auto;
-    margin-left: -45px;
+    margin-left: -35px;
+    border: 2px;
   }
   #k1 {
     font-size: 20px;
@@ -319,11 +320,8 @@ main {
   #u1 {
     font-size: 25px;
   }
+  .l1 {
+    margin-top: 9px;
+    padding: 3px;
+  }
 }
-
- 
-   
- 
-
-  
- 
