@@ -11,6 +11,9 @@ h1 {
 .container {
   text-align: right;
   margin-top: -40px;
+
+  justify-content: flex-start;
+  flex-direction: row;
 }
 .btn {
   border: 1px solid #2b343a;
@@ -250,6 +253,12 @@ main {
 }
 
 @media screen and (max-width: 600px) {
+  .container {
+    justify-content: center;
+    justify-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
   #kl70 {
     font-size: 30px;
     text-align: center;
