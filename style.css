@@ -1,11 +1,6 @@
 #m3 {
-  margin: 0;
-  padding: 0;
+  display: flex;
   background-color: #ecf0f1;
-}
-html{
-  padding-right: -25px;
-
 }
 
 h1 {
@@ -14,10 +9,8 @@ h1 {
 }
 .container {
   text-align: right;
-  margin-top: -40px;
 
-  justify-content: flex-start;
-  flex-direction: row;
+  margin-top: -40px;
 }
 .btn {
   border: 1px solid #2b343a;
@@ -69,6 +62,7 @@ h1 {
   margin-bottom: -5px;
   margin: 10px;
   border-radius: 6px;
+  display: grid;
 }
 .l2 {
   text-align: center;
@@ -130,11 +124,11 @@ h1 {
   text-align: center;
   border: 1px solid black;
   background: rgba(255, 255, 255, 0.74);
-  padding: 15px 44px;
+  padding: 10px 35px;
   font-size: 30px;
   font-family: "monsterrat";
   cursor: pointer;
-  margin: 10px;
+  margin: 5px;
 }
 .btn4:hover,
 .btn5:hover {
@@ -156,6 +150,9 @@ h1 {
 
   text-align: justify;
 }
+html {
+  margin: 0;
+}
 #kl71 {
   background-color: rgba(216, 205, 192, 0.877);
   margin-bottom: 5px;
@@ -169,11 +166,11 @@ h2 {
   text-align: center;
 }
 body {
-  display: flex;
   flex-direction: column;
   max-width: 1440px;
   margin: 0 auto;
   height: 100vh;
+  justify-items: stretch;
 }
 main {
   flex: 1;
@@ -254,19 +251,18 @@ main {
 }
 #kl79 {
   text-align: center;
+  padding: 5px;
 }
 
-@media screen and (max-width: 600px) {
-  .container {
+@media screen and (max-width: 500px) {
+  .btn {
     justify-content: center;
-    justify-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
   }
   #kl70 {
     font-size: 30px;
     text-align: center;
   }
+
   h2 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -280,8 +276,16 @@ main {
     margin: auto;
 
     display: flex;
-    margin-left: 50px;
   }
+
+  #kl70 {
+    justify-content: space-around;
+    display: grid;
+  }
+  header {
+    margin: auto;
+  }
+
   #k1 {
     font-size: 20px;
   }
@@ -294,6 +298,10 @@ main {
   #K2 {
     height: 200px;
     width: 200px;
+  }
+  footer {
+    margin: auto;
+    padding: auto;
   }
   #t6 {
     text-align: center;
@@ -350,19 +358,12 @@ main {
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-#num8 {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 *:focus,
 *:active {
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
 }
 
-html,
 #num8 {
   display: grid;
   height: 100%;
@@ -400,7 +401,7 @@ html,
   top: 0;
   font-size: 14px;
   background: #ffffff;
-  color: #fcfcfc;
+  color: #ffffff;
   padding: 5px 8px;
   border-radius: 5px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
@@ -430,7 +431,7 @@ html,
 
 .wrapper .icon:hover span,
 .wrapper .icon:hover .tooltip {
-  text-shadow: 0px -1px 0px rgb(15, 14, 14);
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .wrapper .facebook:hover,
@@ -444,7 +445,7 @@ html,
 .wrapper .tiktok:hover .tooltip,
 .wrapper .tiktok:hover .tooltip::before {
   background: #000000;
-  color: #fffafa;
+  color: #ffffff;
 }
 
 .wrapper .instagram:hover,
@@ -460,4 +461,3 @@ html,
   background: #333333;
   color: #ffffff;
 }
-
