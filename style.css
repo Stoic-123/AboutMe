@@ -4,7 +4,11 @@
   display: flex;
   background-color: #ecf0f1;
 }
-
+#cv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 h1 {
   margin-top: -1px;
   font-family: Arial, Helvetica, sans-serif;
@@ -114,10 +118,18 @@ h1 {
   cursor: pointer;
   margin: 10px;
    
-   
+}
   
  
    
+#btn11{
+ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
 
 }
 .m7 {
@@ -293,7 +305,7 @@ main {
 .btn {
   border: 2px solid #2b343a;
   background: none;
-  padding: 13px 16px;
+  padding: 10px 13px;
   font-size: 15px;
   font-family: "monsterrat";
   cursor: pointer;
@@ -302,6 +314,23 @@ main {
   position: relative;
   overflow: hidden;
   border-radius: 4px;
+}
+#k123{
+  height: 60px;
+}
+#btn11 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.l7 {
+  color: rgba(26, 22, 22, 0.932);
+  text-decoration: underline 3px;
+  font-size: 26px;
+  padding-top: 5px;
 }
 .wrapper .icon {
   position: relative;
@@ -327,11 +356,7 @@ main {
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
 }
-.inf {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 .m7 {
   margin: 30px;
   text-align: center;
@@ -453,11 +478,7 @@ h2 {
   font-size: 22px;
   font-family: 'Poppins', sans-serif;
 }
-.inf {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 .m7 {
   margin: 30px;
   text-align: center;
@@ -748,7 +769,7 @@ h2 {
     margin-right: auto;
     display: block;
     
-    height: 490px;
+    height: 450px;
 }
 #header{
   display: flex;
@@ -841,6 +862,12 @@ h2 {
 }
 
 @media screen and  (min-width: 820px) {
+  #k2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 450px;
+}
   .wrapper .icon {
     position: relative;
     background: #ffffff;
@@ -941,7 +968,7 @@ font-size: 24px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  height: 550px;
+  height: 500px;
 }
 #header {
   display: flex;
@@ -974,9 +1001,7 @@ font-size: 24px;
   background-color: #3498db;
   font-size: 22px;
 }
-#kl70{
-  font-size: 20px;
-}
+
   
 .btn {
   border: 2px solid #2b343a;
@@ -1020,7 +1045,7 @@ font-size: 24px;
 }
 .header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: row;
 }
 #k2 {
