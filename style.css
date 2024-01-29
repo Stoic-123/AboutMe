@@ -89,24 +89,6 @@ h1 {
 #k1 {
   font-size: 30px;
 }
-#container1 {
-  width: 800px;
-  display: flex;
-  border-radius: 20px;
-  border: 20px solid #404040;
-  overflow: hidden;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  /* align-items: center; */
-  margin-left: 280px;
-}
-.poster-project{
-  min-width: 100%;
-  scroll-snap-align: center;
-}
-.poster-project > img {
-  width: 100%;
-}
 #k2 {
   margin-left: auto;
   margin-right: auto;
@@ -304,34 +286,12 @@ main {
     
     height: 300px;
 }
-#container1 {
-  width: 397px;
-  display: flex;
-  border-radius: 20px;
-  border: 20px solid #404040;
-  overflow: hidden;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  margin-left: 20px;
-  /* margin: 0; */
-  align-items: center;
-}
+ 
 .header {
   display: flex;
   
 }
 
-#container1 {
-  width: 800px;
-  display: flex;
-  border-radius: 20px;
-  border: 20px solid #404040;
-  overflow: hidden;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  /* align-items: center; */
-  margin-left: 280px;
-}
 
  
 #kl70 {
@@ -415,23 +375,6 @@ font-size: 30px;
   margin: 10px;
   background-color: aqua;
 
-}
-#container1 {
-  width: 397px;
-  display: flex;
-  border-radius: 20px;
-  border: 12px solid #404040;
-  overflow: hidden;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  margin-left: 20px;
-  /* margin: 0; */
-  align-items: center;
-  margin-top: 20px;
-}
-.poster-project > img {
-  width: 100%;
-  height: 168px;
 }
 #m3{
   display: flex;
@@ -547,22 +490,6 @@ h2 {
   border-radius: 8px;
   padding: 35px;
 }
-.poster-project > img {
-  width: 100%;
-  height: 200px;
-}
-#container1 {
-  width: 397px;
-  display: flex;
-  border-radius: 20px;
-  border: 20px solid #404040;
-  overflow: hidden;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  margin-left: 20px;
-  /* margin: 0; */
-  align-items: center;
-}
 #u1 {
 font-size: 30px;
 
@@ -641,9 +568,6 @@ h2 {
   overflow: hidden;
   border-radius: 4px;
 }
-.poster-project > img {
-  width: 100%;
-}
 .header {
   display: flex;
   justify-content: space-evenly;
@@ -684,18 +608,6 @@ h2 {
   padding: 15px 25px;
   font-size: 23px;
  
-}
-#container1 {
-  width: 500px;
-  display: flex;
-  border-radius: 20px;
-  border: 20px solid #404040;
-  overflow: hidden;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  /* align-items: center; */
-  margin-left: 30px;
-  /* margin: 0; */
 }
 #k2 {
   margin-left: auto;
@@ -745,9 +657,6 @@ h2 {
   #kl70 {
     font-size: 30px;
 }
-.poster-project > img {
-  width: 100%;
-}
   .inf1 {
     font-size: 22px;
     font-family: 'Poppins', sans-serif;
@@ -776,17 +685,6 @@ h2 {
     font-size: 26px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-}
-#container1 {
-  width: 570px;
-  display: flex;
-  border-radius: 20px;
-  border: 20px solid #404040;
-  overflow: hidden;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  /* align-items: center; */
-  margin-left: 36px;
 }
   #p9 {
    
@@ -861,20 +759,6 @@ h2 {
 }
   #kl70 {
     font-size: 30px;
-}
-#container1 {
-  width: 640px;
-  display: flex;
-  border-radius: 20px;
-  border: 20px solid rgb(64, 64, 64);
-  overflow: auto hidden;
-  scroll-snap-type: x mandatory;
-  margin-left: 57px;
-  margin-top: 20px;
-}
-.poster-project > img {
-  width: 100%;
-  height: 380px;
 }
 .header {
   display: flex;
@@ -1004,21 +888,6 @@ h2 {
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.poster-project > img {
-  width: 100%;
-}
-#container1 {
-  width: 640px;
-  display: flex;
-  border-radius: 20px;
-  border: 20px solid #404040;
-  overflow: hidden;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  /* align-items: center; */
-  margin-left: 115px;
-  margin-top: 22px;
-}
   #kl70 {
     font-size: 40px;
 }
@@ -1084,10 +953,6 @@ font-size: 24px;
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.poster-project > img {
-  width: 100%;
-  height: 400px;
-}
   #kl70 {
     font-size: 40px;
 }
@@ -1096,15 +961,6 @@ font-size: 24px;
 }
   #p1 {
     font-size: 30px;
-}
-#container1 {
-  width: 800px;
-  display: flex;
-  border-radius: 20px;
-  border: 20px solid rgb(64, 64, 64);
-  overflow: auto hidden;
-  scroll-snap-type: x mandatory;
-  margin-left: 280px;
 }
 .header {
   display: flex;
